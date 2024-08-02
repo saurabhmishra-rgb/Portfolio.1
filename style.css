@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+header {
+    background-color: #595959;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+#about, #contact {
+    background-color: #f4f4f4;
+    background-image: url("portfolio_image44.jpg");
+    color: white;
+    font-style: italic;
+   
+}
+#contact{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact h2{
+    font-size: 35px;
+}
+ #email{
+ padding-top:  0rem 1rem;
+ background-color: gray;
+ color: white;
+ font-size: 15px;
+width: 100%;
+ max-width: 700rem;
+
+}
+#name{
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+#message{
+    background-color:gray;
+    color: white;
+    font-size: 15px;
+}
+.project {
+    border: 1px solid #ffffff;
+    margin: 1rem 0rem;
+    padding: 1rem;
+   color: white;
+   font-style: italic;
+   font-size: 20px;
+    
+}
+#Projects{
+    background-image: url("portfolio_image55.jpg");
+}
+#Projects h2{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+#about p{
+    font-style: italic;
+    font-size: 20px;
+}
+#about{
+    background: url("portfolio_image3.jpg");
+    color: rgb(235, 222, 222);
+    height: 55vh;
+}
+#about .photo{
+   position: absolute;
+   left: 75rem;
+   top: 20rem;
+}
+.ganga{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 100px;
+
+}
+
+#Skills{
+   background-image: url("portfolio_image3.jpg");
+    height: 95vh;
+    color: white;
+    font-style: italic;
+}
+#Skills h2{
+    color: white;
+    font-size: 35px;
+}
+.skills-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h2 {
+    text-align: centre;
+    color: gray;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+.skill h3 {
+    margin: 0 0 10px;
+    color: #666;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.html-level {
+    width: 90%;
+    background-color: #e34c26;
+}
+
+.css-level {
+    width: 80%;
+    background-color: #264de4;
+}
+
+.js-level {
+    width: 87%;
+    background-color: #f0db4f;
+}
+
+.Nodejs-level {
+    width: 85%;
+    background-color: #306998;
+}
+.Ejs-level{
+    width: 85%;
+    background-color: gray;
+}
+.SQL-level{
+    width: 85%;
+    background-color: lawngreen;
+}
+
+
+.Resume{
+    font-style: italic;
+    background-color: gray;
+}
+.resume-section h2{
+    font-size: 35px;
+
+}
